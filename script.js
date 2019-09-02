@@ -71,3 +71,4 @@ let isChecked = true,
 
     console.log(isChecked && isClose); //I
     console.log(isChecked || isClose); //ILI
+    console.log(isChecked && isClose); //ILI
