@@ -9,11 +9,11 @@ let appData = {
     budget: +money,
     timeData: time,
     expenses: {
-        expensesOne: expensesTwo
+        expensesOne : expensesTwo
     },
     optionalExpenses: "",
-    income: [""],
+    income: [],
     savings: false,
 };
 
-alert("Budget One day: " + appData["budget"] / 30);
+alert("Budget One day: " + appData.budget / 30);
